@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <script>
+        var nome = window.prompt("Bem vindo, qual é o seu nome?");
+    </script>
+    <h1><img src="img/calculadora.png" alt="Calculadora"> WEBCalculator</h1>
+    <main id="calculos">
+        <nav id="valores">
+            <input type="number" name="Valor_01" id="valor01"></br>
+            <input type="number" name="Valor_02" id="valor02"></br>
+        </nav>
+        <nav id="operacoes">
+            <input type="button" value="Somar" onclick="somar()">
+            <input type="button" value="Subtrair" onclick="subtrair()">
+            <input type="button" value="Multiplicar" onclick="multiplicar()">
+            <input type="button" value="Dividir" onclick="dividir()">
+            <input type="button" value="Média" onclick="media()">
+            <input type="button" value="Multiplos de 3" onclick="multiplos3()">
+            <input type="button" value="Multiplos de 5" onclick="multiplos5()">
+            <input type="button" value="Sair" onclick="sair()">
+        </nav>
+    </main>
+    <footer id="rodape">
+        <h6>Desenvolvido por Diego Augusto Pedro</h6>
+    </footer>
+</body>
+
+</html>
